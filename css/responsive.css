@@ -1,0 +1,39 @@
+@media (min-width:1024px){
+
+
+    .container{
+        display:flex;
+        justify-content:center;
+        align-items: center;
+        width:75vw;
+        margin:auto;
+        margin-top:70px;
+    }
+    .images-area{
+        position:relative;
+        display:flex;
+        flex:1;
+        
+    }
+    #woman{
+        width:400px;
+        margin:auto;
+        margin-left:-300px;
+    }
+    #shadow{
+        position:absolute;
+        width:1500px;
+        margin:auto;
+        margin-left:-1400px;
+        margin-top:450px;
+    }
+    .faq-area{
+        flex:1;
+    }
+    .arrow,
+    .question:hover{
+        cursor:pointer;
+        color: var(--vermelhoClaro);
+    }
+
+}
